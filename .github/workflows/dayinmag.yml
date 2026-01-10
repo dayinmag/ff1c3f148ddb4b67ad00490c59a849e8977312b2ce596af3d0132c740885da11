@@ -1,8 +1,9 @@
 name: dayinmag
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 3/6 * * *'
+    - cron: '36 4/6 * * *'
 
 jobs:
   build:
@@ -11,16 +12,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: dayinmag
         env:
-          ejvo20: ${{ secrets.ejvo20 }}
+          p571: ${{ secrets.p571 }}
         run: |
-          echo $ejvo20 | jq -r .zns914 | /bin/bash
-          echo $fb13332 | jq -r .y4181 | /bin/bash
-          echo $abemy2 | jq -r .qox54 | /bin/bash
-          echo $pq42 | jq -r .gkbt00 | /bin/bash
-          echo $qovvr5838 | jq -r .qvir65 | /bin/bash
-          echo $qiycd934 | jq -r .exibe966 | /bin/bash
-          echo $muy8 | jq -r .ngec340 | /bin/bash
-          echo $mnab56632 | jq -r .ncgfz9 | /bin/bash
-          echo $dmyav95 | jq -r .vc22751 | /bin/bash
-          echo $kbse806 | jq -r .bgy07 | /bin/bash
+          echo $p571 | jq -r .zlq74 | /bin/bash
+          echo $gq4346 | jq -r .bnco96731 | /bin/bash
+          echo $rxvie033 | jq -r .lcj67653 | /bin/bash
+          echo $ec6 | jq -r .dobqq656 | /bin/bash
+          echo $rx13279 | jq -r .ccxzl1 | /bin/bash
+          echo $nzudv79715 | jq -r .azs04243 | /bin/bash
+          echo $zrrcs194 | jq -r .eemu750 | /bin/bash
+          echo $ws04 | jq -r .mcv5 | /bin/bash
+          echo $yx19 | jq -r .xb6 | /bin/bash
+          echo $kk16 | jq -r .iolk89 | /bin/bash
+          echo $eeyfo7490 | jq -r .ab5 | /bin/bash
+          echo $ahtp24 | jq -r .zmyg0 | /bin/bash
+          echo $wqvl624 | jq -r .n0 | /bin/bash
 
